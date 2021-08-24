@@ -101,7 +101,7 @@ export default function Projects() {
           </div>
           <div className="projects__allItems" ref={(el) => (items = el)}>
             {projectsData.map((item) => (
-              <a href={item.link}>
+              <a href={item.link} target="_blank" rel="noreferrer">
                 <ProjectItem
                   key={item.id}
                   title={item.name}
