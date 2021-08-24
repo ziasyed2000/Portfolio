@@ -210,7 +210,7 @@ export default function HeroSection() {
           </div>
           <div className="hero__btn" ref={(el) => (heroBtn = el)}>
             <a
-              href="https://github.com/ziasyed2000/portfolio/raw/gh-pages/ZiaResume.pdf"
+              href="https://github.com/ziasyed2000/Portfolio/raw/gh-pages/ZiaResume.pdf"
               className="resume"
               download
             >
