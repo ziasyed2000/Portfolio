@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import ProjectImg from '../assets/images/projectImg.png';
+import ProjectImg from '../assets/images/loading.gif';
 
 const ProjectItemStyles = styled.div`
   .projectItem__img {

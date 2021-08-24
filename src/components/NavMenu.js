@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
-import gsap, { TimelineLite, Power3 } from 'gsap';
+import gsap from 'gsap';
 import { MdClose, MdMenu } from 'react-icons/md';
 
 const NavStyles = styled.nav`
@@ -92,7 +92,6 @@ const NavStyles = styled.nav`
 export default function NavMenu() {
   const [showNav, setShowNav] = useState(false);
   let navBar = useRef(null);
-  const tl = new TimelineLite();
 
   useEffect(() => {
     gsap.to(navBar, 0, { css: { display: 'flex' } });

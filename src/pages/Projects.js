@@ -57,7 +57,6 @@ export default function Projects() {
   const [projectsData, setProjectsData] = useState(ProjectsInfo);
   let proj = useRef(null);
   let items = useRef(null);
-  let sBar = useRef(null);
   const tl = new TimelineLite();
 
   useEffect(() => {
@@ -94,7 +93,6 @@ export default function Projects() {
                 value={searchText}
                 onChange={handleChange}
                 placeholder="Project Name"
-                ref={(el) => (sBar = el)}
               />
               <MdSearch className="searchIcon" />
             </form>

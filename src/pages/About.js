@@ -1,8 +1,7 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useRef, useEffect } from 'react';
 import styled from 'styled-components';
 import gsap, { TimelineLite, Power3 } from 'gsap';
 import PText from '../components/PText';
-import Button from '../components/Button';
 import AboutImg from '../assets/images/about-page-img.png';
 import AboutInfoItem from '../components/AboutInfoItem';
 import ContactBanner from '../components/ContactBanner';
