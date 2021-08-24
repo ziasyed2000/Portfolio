@@ -209,7 +209,11 @@ export default function HeroSection() {
             <img src={HeroImg} alt="" />
           </div>
           <div className="hero__btn" ref={(el) => (heroBtn = el)}>
-            <a href="./ZiaResume.pdf" className="resume" download>
+            <a
+              href="https://github.com/ziasyed2000/portfolio/raw/gh-pages/ZiaResume.pdf"
+              className="resume"
+              download
+            >
               Download Resumè
             </a>
           </div>
